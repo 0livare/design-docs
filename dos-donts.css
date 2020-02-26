@@ -1,6 +1,7 @@
 .design-doc-do-dont-container {
   display: grid;
   grid-template-columns: repeat(var(--column-count), minmax(300px, 50%));
+  grid-gap: 8px;
 }
 
 @media only screen and (max-width: 600px) {
